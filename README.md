@@ -6,15 +6,18 @@
 
 - ⚡️ [Vite](https://vitejs.dev/) - Next Generation Frontend Tooling
 - ⚛️ [React 18](https://reactjs.org/) - A JavaScript library for building user interfaces
-- 💎 [TypeScript](https://www.typescriptlang.org/) - Why not?!
+- 💎 [TypeScript](https://www.typescriptlang.org/) - It's a standard now!
 - 🔨 [EsLint](https://eslint.org/) - Pluggable JavaScript linter
 - 🌀 [Prettier](https://prettier.io) - Opinionated Code Formatter
 - ⚙️ WIP [Jest](https://jestjs.io/) - Testing libraries
 - ⌨️ Absolute Imports
+- Fully tree shakeable. Only component code is imported.
+- You can develope library like a normal application, with demo usage for examlpe, but expose only `lib` folder outside.
+- The components are styled with css modules, this approach avoids a compatibility issue.
 
 ## Usage
 
-To use this template see instructions below:
+### To use this template see instructions below:
 
 ```bash
 # to clone repository run:
@@ -28,6 +31,20 @@ git init
 yarn install
 
 yarn dev
+```
+
+### Development linking
+
+For development purposes you can install library into your application using `yarn`/`npm` `link` command.
+
+```bash
+# inside of your library folder use
+yarn link 
+# to build a link to this library
+
+# inside of your application folder use
+yarn link <library_name>
+# to install this library ino node_modules folder as a symlink
 ```
 
 ## Available commands
