@@ -57,3 +57,7 @@ yarn link <library_name>
 | yarn prepublishOnly | Builds the app for production to the `dist` folder.                                           |
 | yarn lint           | Runs the Eslint and show code problems.                                                       |
 | yarn preview        | Builds the app for production to the `dist` folder, and run locally server.                   |
+
+## Issues
+
+- Due to config limitations, imports from `lib` directory must be `relative` imports.
