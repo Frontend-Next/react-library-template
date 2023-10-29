@@ -12,7 +12,7 @@
 - ⚙️ WIP [Jest](https://jestjs.io/) - Testing libraries
 - ⌨️ Absolute Imports
 - Fully tree shakeable. Only component code is imported.
-- You can develope library like a normal application, with demo usage for examlpe, but expose only `lib` folder outside.
+- You can develop library like a normal application, with demo usage for examlpe, but expose only `lib` folder outside.
 - The components are styled with css modules, this approach avoids a compatibility issue.
 
 ## Usage
@@ -39,7 +39,7 @@ For development purposes you can install library into your application using `ya
 
 ```bash
 # inside of your library folder use
-yarn link 
+yarn link
 # to build a link to this library
 
 # inside of your application folder use
