@@ -1,9 +1,5 @@
 {
   "compilerOptions": {
-    "baseUrl": "./",
-    "paths": {
-      "*": ["lib/*", "src/*"]
-    },
     "composite": true,
     "skipLibCheck": true,
     "module": "ESNext",
