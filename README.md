@@ -21,7 +21,7 @@
 
 ```bash
 # to clone repository run:
-npx degit Frontend-Next/react-template my-app
+npx degit Frontend-Next/react-library-template my-app
 
 cd my-app
 
