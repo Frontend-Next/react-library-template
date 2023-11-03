@@ -1,4 +1,4 @@
-import { Button, Input, Label } from "../../../lib/main";
+import { Button, Input, Label } from "lib/main";
 
 export const Demo = () => {
   return (
